@@ -1,0 +1,65 @@
+.table {
+  border-collapse: collapse; /* Remove default border spacing */
+  direction: rtl; /* Set direction to right-to-left */
+  width: 80%; /* Adjusted width for a smaller table */
+  margin: auto; /* Center the table */
+}
+
+.table th,
+.table td {
+  border: none; /* Remove all borders */
+  text-align: center; /* Align text to the center */
+  padding: 4px; /* Reduced padding for a smaller appearance */
+  font-size: 14px; /* Adjusted font size */
+  position: relative; /* Position relative for pseudo-elements */
+}
+
+/* Add left border to the header */
+.table th {
+  border-left: 1px solid #342f2f; /* Add left border to the header */
+  color:#6B7280;
+  ;
+}
+
+/* Add left border to each cell */
+.table td {
+  border-left: 1px solid #342f2f; /* Add left border to each cell */
+  color:#1C1C28;
+  ;
+}
+
+/* Remove final left border for the last column */
+.table th:last-child,
+.table td:last-child {
+  border-left: none; /* Remove left border from the last column */
+}
+
+/* Pseudo-element for taller vertical border */
+.table th::before,
+.table td::before {
+  content: ""; /* Create a pseudo-element */
+  position: absolute; /* Position it absolutely */
+  left: -1px; /* Position to the left */
+  top: 0; /* Start from the top */
+  bottom: 0; /* Stretch to the bottom */
+  width: 1px; /* Width of the border */
+  background-color: #efeaea; /* Color of the border */
+}
+
+.client-icon {
+  margin-left: 5px; /* Space between the icon and the text */
+  vertical-align: middle; /* Align the icon vertically with the text */
+  font-size: 20px; /* Adjust the size of the icon */
+  color: #1C1C28; /* Change the color of the icon if needed */
+  background-image: url("../../../assets/images/download.jpg");
+  width: 20px; /* Set width of the icon (rectangle) */
+  background-size: cover; /* Ensure the icon covers the dimensions */
+  background-repeat: no-repeat; /* Prevent repeating the icon */
+  border-radius: 20px; /* Optional: Add slight rounding to corners */
+  height: 20px; /* Set height of the icon (rectangle) */
+}
+/* Remove left border for the last column's pseudo-element */
+.table th:last-child::before,
+.table td:last-child::before {
+  display: none; /* Remove the left border for the last column */
+}

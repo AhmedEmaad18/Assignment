@@ -1,1 +1,111 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.cdnfonts.com/css/neo-sans-arabic');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Default styles for mobile devices */
+body {
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+
+/* Styles for devices 300px and up */
+@media (min-width: 300px) {
+    body {
+        background-color: #e0e0e0;
+    }
+}
+/* Styles for devices 600px and up */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+        background-color: #d0d0d0;
+    }
+}
+
+/* Styles for devices 900px and up */
+@media (min-width: 900px) {
+    body {
+        font-size: 20px;
+        background-color: #c0c0c0;
+    }
+}
+
+/* Styles for devices 1200px and up */
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px;
+        background-color: #b0b0b0;
+    }
+}
+
+/* Styles for devices 1600px and up */
+@media (min-width: 1600px) {
+    body {
+        font-size: 24px;
+        background-color: #a0a0a0;
+    }
+}
+
+/* Styles for devices 2000px and up */
+@media (min-width: 2000px) {
+    body {
+        font-size: 26px;
+        background-color: #909090;
+    }
+}
+C
+:host {
+    display: block;
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+
+/* Styles for devices 300px and up */
+@media (min-width: 300px) {
+    :host {
+        background-color: #e0e0e0;
+    }
+}
+
+/* Styles for devices 600px and up */
+@media (min-width: 600px) {
+    :host {
+        font-size: 18px;
+        background-color: #d0d0d0;
+    }
+}
+
+/* Styles for devices 900px and up */
+@media (min-width: 900px) {
+    :host {
+        font-size: 20px;
+        background-color: #c0c0c0;
+    }
+}
+
+/* Styles for devices 1200px and up */
+@media (min-width: 1200px) {
+    :host {
+        font-size: 22px;
+        background-color: #b0b0b0;
+    }
+}
+
+/* Styles for devices 1600px and up */
+@media (min-width: 1600px) {
+    :host {
+        font-size: 24px;
+        background-color: #a0a0a0;
+    }
+}
+
+/* Styles for devices 2000px and up */
+@media (min-width: 2000px) {
+    :host {
+        font-size: 26px;
+        background-color: #909090;
+    }
+}

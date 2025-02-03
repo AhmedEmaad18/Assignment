@@ -1,0 +1,49 @@
+.card {
+  margin: 20px; /* Adjust margin as needed */
+}
+
+.header {
+  height: 14px; /* Set height for headers */
+  font-size: small;
+  gap: 0px; /* Set gap for headers */
+  opacity: 1; /* Set opacity for headers (1 for fully visible) */
+  color: #6B7280;
+  position: relative; /* Position relative for absolute positioning of the icon */
+}
+
+.head {
+  margin-left: 80px;
+  font-size: small;
+  color: #6B7280;
+}
+
+.paragraph {
+  width: 200px; /* Set width for paragraphs */
+  height: 16px; /* Set height for paragraphs */
+  font-size: medium;
+  gap: 0px; /* Set gap for paragraphs */
+  opacity: 1; /* Set opacity for paragraphs (1 for fully visible) */
+  position: relative; /* Position relative for absolute positioning of the icon */
+}
+
+.font {
+  font-family: 'Neo Sans Arabic', sans-serif; /* Apply the font to the table */
+  color: #1C1C28;
+  text-align: right;
+  margin-right: 35px;
+}
+
+/* Icon styles */
+.font::before {
+  content: ""; /* Empty content for the pseudo-element */
+  position: absolute; /* Position it absolutely */
+  left: 210px; /* Adjust left position as needed */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  width: 20px; /* Set width of the icon (rectangle) */
+  height: 20px; /* Set height of the icon (rectangle) */
+  background-image: url("../../../assets/images/download.jpg"); /* Background image */
+  background-size: cover; /* Ensure the icon covers the dimensions */
+  background-repeat: no-repeat; /* Prevent repeating the icon */
+  border-radius: 20px; /* Optional: Add slight rounding to corners */
+}

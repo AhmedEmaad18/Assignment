@@ -1,0 +1,41 @@
+<div class="table-responsive" style=" height: auto; gap: 16px;">
+  <!-- First Table -->
+  <table class="table  mt-3" style="width: 100%;">
+    <thead >
+      <tr>
+        <th style="width: 25%; height: 17px; opacity: 1;">اسم البرتوكول</th>
+        <th style="width: 25%; height: 17px; opacity: 1;">الدوله</th>
+        <th style="width: 25%; height: 17px; opacity: 1;">العميل الحالي</th>
+        <th style="width: 25%; height: 17px; opacity: 1;">عدد الامدادات</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of dataSource">
+        <td style="width: 25%; height: 21px; opacity: 1;">{{element.name}}</td>
+        <td style="width: 25%; height: 21px; opacity: 1;">{{element.s}}</td>
+        <td style="width: 25%; height: 21px; opacity: 1;"> <mat-icon class="client-icon"></mat-icon>{{element.l}}</td>
+        <td style="width: 25%; height: 21px; opacity: 1;">{{element.n}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Second Table -->
+  <table class="table  mt-4" style="width: 100%;">
+    <thead>
+      <tr>
+        <th style="width: 25%; height: 17px; opacity: 1;">تاريخ اخر شحنه</th>
+        <th style="width: 25%; height: 17px; opacity: 1;">الرصيد الحالي</th>
+        <th style="width: 25%; height: 17px; opacity: 1;">الرصيد المستخدم للعميل الحالي</th>
+        <th style="width: 25%; height: 17px; opacity: 1;">الرصيد المستخدم للرقم ككل</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of dSource">
+        <td style="width: 25%; height: 21px; opacity: 1;">{{element.name}}</td>
+        <td style="width: 25%; height: 21px; opacity: 1;">{{element.s}}</td>
+        <td style="width: 25%; height: 21px; opacity: 1;">{{element.l}}</td>
+        <td style="width: 25%; height: 21px; opacity: 1;">{{element.n}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

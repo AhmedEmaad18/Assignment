@@ -1,0 +1,56 @@
+.header-text {
+  font-family: 'Neo Sans Arabic', sans-serif; /* Ensure the font is available */
+  font-size: 14px; /* Font size */
+  font-weight: 500; /* Font weight */
+  line-height: 21px; /* Line height */
+  text-align: right; /* Align text to the right */
+  color: black; /* Change text color if needed */
+  flex: 1; /* Allow the text to take available space */
+}
+
+.close-container {
+  display: flex;
+  align-items: center;
+  width: 30px; /* Increased width */
+  height: 30px; /* Increased height */
+  justify-content: center;
+  background-color: #3E97FF1A;
+  border-radius: 4px; /* Rounded corners */
+  padding: 5px; /* Padding around the icon */
+}
+
+.hash-container {
+  display: flex;
+  align-items: center;
+  width: 30px; /* Increased width */
+  height: 30px; /* Increased height */
+  margin-top: 4px;
+  margin-left: 5px;
+  justify-content: center;
+  background-color: #3E97FF1A;
+  border-radius: 4px; /* Rounded corners */
+  padding: 5px; /* Padding around the icon */
+}
+
+.close-icon {
+  cursor: pointer;
+  color: #1C1C28; /* Default color */
+  font-size: 24px; /* Adjust size as needed */
+  transform: rotate(-180deg); /* Rotate the icon */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.hash-icon {
+  font-size: 24px; /* Adjust size as needed */
+  color: black; /* Change icon color if needed */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Hover effects */
+.close-icon:hover {
+  color: red; /* Change color to red on hover */
+}
+
+.hash-icon:hover {
+  color: red; /* Change color to red on hover */
+}
