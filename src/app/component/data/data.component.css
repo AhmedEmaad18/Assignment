@@ -38,7 +38,6 @@
   margin-bottom: 10px; /* Space between rows */
 }
 
-/* Optional: Add hover effect for rows */
 .custom-row:hover {
   background-color: #f9f9f9; /* Light gray background on hover */
 }
@@ -60,13 +59,12 @@
   background-color:#F4F5F7;
   ;
 }
-/* Optional: Style for paginator */
 .mat-paginator {
   margin-top: 20px; /* Space above paginator */
 }
 
 .client-icon {
-  margin-left: 5px; /* Space between the icon and the text */
+  margin-left: 5px;
   vertical-align: middle; /* Align the icon vertically with the text */
   font-size: 20px; /* Adjust the size of the icon */
   color: #1C1C28; /* Change the color of the icon if needed */

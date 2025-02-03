@@ -58,7 +58,6 @@
   border-radius: 20px; /* Optional: Add slight rounding to corners */
   height: 20px; /* Set height of the icon (rectangle) */
 }
-/* Remove left border for the last column's pseudo-element */
 .table th:last-child::before,
 .table td:last-child::before {
   display: none; /* Remove the left border for the last column */
